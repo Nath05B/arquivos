@@ -1,0 +1,85 @@
+public class CronogramaLeitura {
+
+    public static void main(String[] args) {
+        // Semana 1
+        livro1("Pai Rico, Pai Pobre", 5, 25); // ler 5 dias, 25 páginas por dia
+        
+        // Semana 2
+        livro2("O Poder do Hábito", 7, 20, 30); // ler 7 dias, 20-30 páginas por dia
+        
+        // Semana 3
+        livro3("Sapiens: Uma Breve História da Humanidade", 5, 20); // ler 5 dias, 20 páginas por dia
+        
+        // Semana 4
+        livro4("O Poder do Agora", 7, 15, 20); // ler 7 dias, 15-20 páginas por dia
+        
+        // Semana 5
+        livro5("A Coragem de Ser Imperfeito", 5, 25); // ler 5 dias, 25 páginas por dia
+        
+        // Semana 6
+        livro6("A Arte da Guerra", 7, 15, 20); // ler 7 dias, 15-20 páginas por dia
+        
+        // Semana 7
+        livro7("O Poder do Subconsciente", 4, 30); // ler 4 dias, 30 páginas por dia
+        
+        // Semana 8
+        livro8("Mindset: A Nova Psicologia do Sucesso", 7, 20, 25); // ler 7 dias, 20-25 páginas por dia
+    }
+
+    // Método para imprimir o progresso de leitura de cada livro
+    public static void livro1(String titulo, int dias, int paginasPorDia) {
+        System.out.println("Semana 1: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + paginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: " + (dias * paginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro2(String titulo, int dias, int minPaginasPorDia, int maxPaginasPorDia) {
+        System.out.println("Semana 2: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + minPaginasPorDia + "-" + maxPaginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: Entre " + (dias * minPaginasPorDia) + " e " + (dias * maxPaginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro3(String titulo, int dias, int paginasPorDia) {
+        System.out.println("Semana 3: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + paginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: " + (dias * paginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro4(String titulo, int dias, int minPaginasPorDia, int maxPaginasPorDia) {
+        System.out.println("Semana 4: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + minPaginasPorDia + "-" + maxPaginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: Entre " + (dias * minPaginasPorDia) + " e " + (dias * maxPaginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro5(String titulo, int dias, int paginasPorDia) {
+        System.out.println("Semana 5: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + paginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: " + (dias * paginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro6(String titulo, int dias, int minPaginasPorDia, int maxPaginasPorDia) {
+        System.out.println("Semana 6: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + minPaginasPorDia + "-" + maxPaginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: Entre " + (dias * minPaginasPorDia) + " e " + (dias * maxPaginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro7(String titulo, int dias, int paginasPorDia) {
+        System.out.println("Semana 7: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + paginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: " + (dias * paginasPorDia) + " páginas");
+        System.out.println();
+    }
+
+    public static void livro8(String titulo, int dias, int minPaginasPorDia, int maxPaginasPorDia) {
+        System.out.println("Semana 8: " + titulo);
+        System.out.println("Meta: Ler " + dias + " dias, " + minPaginasPorDia + "-" + maxPaginasPorDia + " páginas por dia");
+        System.out.println("Duração estimada: Entre " + (dias * minPaginasPorDia) + " e " + (dias * maxPaginasPorDia) + " páginas");
+        System.out.println();
+    }
+}
