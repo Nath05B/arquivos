@@ -7,3 +7,5 @@ public class OlaMundo (
 
 }//fim do metodo principal 
 )// fim da classe "OlaMundo" 
+
+segunda versão 
