@@ -1,0 +1,38 @@
+public class Calculadora {
+    
+    // Método principal - inicia o aplicativo Java
+    public static void main(String[] args) {
+        // Exibe uma mensagem de boas-vindas
+        System.out.println("Bem-vindo à Calculadora!");
+        
+        // Variáveis para os operandos e resultado
+        int numero1 = 10;
+        int numero2 = 5;
+        int resultado;
+        
+        // Realiza operações matemáticas simples
+        resultado = numero1 + numero2;
+        System.out.println("Soma: " + numero1 + " + " + numero2 + " = " + resultado);
+        
+        resultado = numero1 - numero2;
+        System.out.println("Subtração: " + numero1 + " - " + numero2 + " = " + resultado);
+        
+        resultado = numero1 * numero2;
+        System.out.println("Multiplicação: " + numero1 + " * " + numero2 + " = " + resultado);
+        
+        // Verifica a divisão por zero
+        if (numero2 != 0) {
+            resultado = numero1 / numero2;
+            System.out.println("Divisão: " + numero1 + " / " + numero2 + " = " + resultado);
+        } else {
+            System.out.println("Não é possível dividir por zero.");
+        }
+        
+        // Operação de resto (módulo)
+        resultado = numero1 % numero2;
+        System.out.println("Resto da divisão: " + numero1 + " % " + numero2 + " = " + resultado);
+        
+        // Fim do método principal
+    }
+    
+}
